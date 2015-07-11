@@ -1,0 +1,38 @@
+﻿@using _5_CSRF.Models
+@model StatusUpdateViewModel
+@{
+    ViewBag.Title = "Status updater";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Update your status.</h2>
+</hgroup>
+
+@if (User.Identity.IsAuthenticated)
+{
+    using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+        <fieldset>
+            <legend>Status update</legend>
+            <ol>
+                <li>
+                    @Html.LabelFor(m => m.Status)
+                    @Html.TextBoxFor(m => m.Status)
+                </li>
+            </ol>
+            <input type="submit" value="Update status" />
+        </fieldset>
+    }
+    {
+        Html.RenderPartial("_StatusUpdatesPartial", (IEnumerable<StatusUpdateViewModel>)ViewBag.StatusUpdates);
+    }
+}
+else
+{
+    <p>Log in first then you can update your status.</p>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

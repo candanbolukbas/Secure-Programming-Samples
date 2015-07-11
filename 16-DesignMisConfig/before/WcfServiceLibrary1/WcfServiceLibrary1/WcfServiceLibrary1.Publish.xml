@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\SimpleWebService\">
+    <file relUrl="bin/WcfServiceLibrary1.dll" publishTime="07/10/2015 23:56:36" />
+    <file relUrl="bin/WcfServiceLibrary1.dll.config" publishTime="06/26/2015 02:28:11" />
+    <file relUrl="bin/WcfServiceLibrary1.pdb" publishTime="07/10/2015 23:56:36" />
+    <file relUrl="WcfServiceLibrary1.Service1.svc" publishTime="07/10/2015 23:56:46" />
+    <file relUrl="Web.config" publishTime="06/26/2015 02:28:11" />
+  </publishTarget>
+</publishData>

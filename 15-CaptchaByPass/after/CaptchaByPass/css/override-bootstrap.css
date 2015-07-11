@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Simonetta);
+
+* {
+	color:rgb(90,90,80);
+}
+
+body {
+	background-color: #eeeeee;
+	margin:0;
+	padding: 0;
+}
+
+a {
+	color:#38495b;
+} 
+
+a:hover {
+	color:black;
+} 
+
+.panel-bga .panel-heading, .panel-footer {
+	background-color: #38495b;
+	color:white;
+}
+
+.panel {
+	background-color: #eeeeee;
+}
+
+.banner-logo {
+	background-color: #E4F1FE; 
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-search {
+	background-color: rgb(190,190,175);
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-login {
+	background-color: #C8F7C5;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-logo:hover {
+	background-color: #eeeeee;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-search:hover {
+	background-color: #eeeeee;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-login:hover {
+	background-color: #eeeeee;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.navbar-bga {
+	background-color: #eeeeee;
+}
+
+.navbar-bga a{
+	font-size:16px;
+	font-family: "Simonetta";
+	color:rgb(90,90,80);
+}
+
+.navbar-bga a:hover{
+	/* font-weight: bold; */
+}
+
+.navbar-bga .navbar-nav > li > a:hover, .navbar-bga .navbar-nav > li > a:focus, .navbar-bga .navbar-nav > li > a::after, .dropdown-bga > li > a:hover, .navbar-bga .navbar-nav > li > a:hover > span, .navbar-bga .navbar-nav > li > a:focus > span { 
+    background-color:rgb(56,73,91);
+    color:white;
+	/*
+	-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+	*/
+}
+
+.dropdown-bga > li > a:hover > span {
+    color:white
+}
+    
+.btn, .btn > span {
+	background-color: #38495b;
+	color:white;
+	border:none;
+}
+
+.btn:hover {
+	background-color: #283949;
+	color:white;
+}
+
+.form-control {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus{
+    border:none;    
+}
+
+.cr-my {
+	background-color:rgb(56,73,91); 
+	opacity:0.8; 
+	border-radius:4px;
+}
+
+.list-bilgi > li {
+	padding:10px;
+}
+
+.tn-my:hover, .list-bilgi > li:hover, .list-bilgi > li:hover > div{
+	background-color: #38495b;
+	color:white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.tn-my:hover > center > div > p, .tn-my:hover > center > div > h3 {
+	color:white;
+}
+
+.tn-my {
+	border:1px solid rgb(90,90,80);
+}
+
+.navbar-bga .navbar-login > li > a:hover, .navbar-bga .navbar-login > li > a:hover > span, .navbar-bga .navbar-login > li > a:focus > span, .navbar-bga .navbar-login > li > a::after, .navbar-bga .navbar-login > li > a:focus{
+	background-color: #27ae60;    
+	color:white;
+	border-radius:20px;
+	-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.navbar-bga .navbar-login > li > ul > li:hover > a {
+	background-color: #27ae60;    	
+	color:white;
+}
+
+.pt {
+	font-family: "Simonetta";
+	font-size:16px;
+}
+
+.sh a {
+	color:#2f4f4f;
+	font-size:13px;
+}
+
+.ft {
+	font-size:12px;
+	color:gray;
+}
+
+.panel-py {
+	min-height: 418px;
+}
+
+.panel-cr {
+	min-height: 515px;	
+}
+
+.navbar-bga .navbar-login > li {
+	height:50px;
+}
+
+.panel-thumb {
+	min-height: 350px;
+}
+
+ul.profile-details {
+    margin-top: 10px;
+    padding: 0px 5px;
+    list-style: outside none none;
+    color: #7C848D;
+    font-size:13px;
+}
+
+ul.profile-details > li {
+	color:gray;
+}
+
+.profile-image-tn:hover, .profile-image-tn::after, .profile-image-tn:focus {
+	border:1px solid black;
+}
+
+.panel-body > .row > .col-md-3 > a > .transactions:hover, .last-events:hover, .shortcuts > .row > div:hover > a > div {
+	box-shadow: inset 0px 0px 50px 30px rgba(0,0,0,0.2) !important;
+	-webkit-transition: box-shadow 200ms linear;
+    -moz-transition: box-shadow 200ms linear;
+    -o-transition: box-shadow 200ms linear;
+    -ms-transition: box-shadow 200ms linear;
+    transition: box-shadow 200ms linear;
+}
+
+.panel-body > .row > .col-md-3 > a > .transactions:hover > center > div > h3 > span, .panel-body > .row > .col-md-3 > a > .transactions:hover > center > div > p, .last-events:hover > center > div > h3 > span, .shortcuts > .row > div:hover > a > div > center > div > h3 > span {
+	opacity: 1 !important;
+	-webkit-transition: opacity 400ms linear;
+    -moz-transition: opacity 400ms linear;
+    -o-transition: opacity 400ms linear;
+    -ms-transition: opacity 400ms linear;
+    transition: opacity 400ms linear;
+}
+
+.panel {
+    box-shadow: 6px 6px 16px 0px rgba(50, 50, 50, 0.15) !important;
+}
+
+#counter-up {
+    cursor : pointer;
+}
+
+.shortcuts > .row, .shortcuts > .row > div {
+    margin: 0;
+    padding: 0;    
+}
+
+.my-messages > .active > a {
+    background-color:rgb(241,196,15) !important;
+    border-radius:2px
+}
+
+.havale {
+    font-size:16px;
+	font-family: "Simonetta";
+	color:rgb(90,90,80);    
+}

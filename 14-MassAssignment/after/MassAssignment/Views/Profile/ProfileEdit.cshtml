@@ -1,0 +1,49 @@
+﻿@model MassAssignment.EmployeeEditViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Profile</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Employee</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.EmployeeID)
+
+            <table>
+                @foreach (var p in ViewData.ModelMetadata.Properties)
+                {
+                    <tr>
+                        <th style="text-align:left">@Html.Label(p.PropertyName, htmlAttributes: new { @class = "control-label col-md-2"})</th>
+                        <td>@Html.Editor(p.PropertyName, new { htmlAttributes = new { @class = "form-control" } })</td>
+                    </tr>
+                }
+            </table>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" name="btnSave" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="251aa427162a45a6ae4bfce7347c9b4b" Name="Diagram1">
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Membership" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Paths" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Profile" Width="1.5" PointX="10.5" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Roles" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_Users" Width="1.5" PointX="8.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.aspnet_WebEvent_Events" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CryptoStorageModel.UserInfo" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Me__Appli__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Pa__Appli__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Ro__Appli__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Us__Appli__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Me__UserI__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Pe__PathI__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Pe__PathI__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Pe__UserI__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.FK__aspnet_Pr__UserI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="CryptoStorageModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,10 @@
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\WcfSimpleTokenExample.dll.config
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\WcfSimpleTokenExample.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\WcfSimpleTokenExample.pdb
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\EntityFramework.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\EntityFramework.SqlServer.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\EntityFramework.xml
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\bin\EntityFramework.SqlServer.xml
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\obj\Release\WcfSimpleTokenExample.csprojResolveAssemblyReference.cache
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\obj\Release\WcfSimpleTokenExample.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\16-DesignMisConfig\after\WcfSimpleTokenExample\WcfSimpleTokenExample\obj\Release\WcfSimpleTokenExample.pdb

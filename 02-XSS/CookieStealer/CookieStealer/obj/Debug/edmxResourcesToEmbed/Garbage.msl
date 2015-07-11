@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GarbageModelStoreContainer" CdmEntityContainer="GarbageEntities">
+    <EntitySetMapping Name="Cookies">
+      <EntityTypeMapping TypeName="GarbageModel.Cooky">
+        <MappingFragment StoreEntitySet="Cookies">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CookieValue" ColumnName="CookieValue" />
+          <ScalarProperty Name="CookieKey" ColumnName="CookieKey" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

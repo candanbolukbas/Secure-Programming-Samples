@@ -1,0 +1,93 @@
+﻿using System.Collections.Generic;
+
+namespace _2_XSS
+{
+  public class Product
+  {
+    public string Name { get; set; }
+
+    public IEnumerable<Product> GetSampleProductList()
+    {
+      return new List<Product>
+        {
+          new Product {Name = "Alice Mutton"},
+          new Product {Name = "Aniseed Syrup"},
+          new Product {Name = "Boston Crab Meat"},
+          new Product {Name = "Camembert Pierrot"},
+          new Product {Name = "Carnarvon Tigers"},
+          new Product {Name = "Chai"},
+          new Product {Name = "Chang"},
+          new Product {Name = "Chartreuse verte"},
+          new Product {Name = "Chef Anton's Cajun Seasoning"},
+          new Product {Name = "Chef Anton's Gumbo Mix"},
+          new Product {Name = "Chocolade <script>alert('Persistent XSS!');</script>"},
+          new Product {Name = "Côte de Blaye"},
+          new Product {Name = "Escargots de Bourgogne"},
+          new Product {Name = "Filo Mix"},
+          new Product {Name = "Flotemysost"},
+          new Product {Name = "Geitost"},
+          new Product {Name = "Genen Shouyu"},
+          new Product {Name = "Gnocchi di nonna Alice"},
+          new Product {Name = "Gorgonzola Telino"},
+          new Product {Name = "Grandma's Boysenberry Spread"},
+          new Product {Name = "Gravad lax"},
+          new Product {Name = "Guaraná Fantástica"},
+          new Product {Name = "Gudbrandsdalsost"},
+          new Product {Name = "Gula Malacca"},
+          new Product {Name = "Gumbär Gummibärchen"},
+          new Product {Name = "Gustaf's Knäckebröd"},
+          new Product {Name = "Ikura"},
+          new Product {Name = "Inlagd Sill"},
+          new Product {Name = "Ipoh Coffee"},
+          new Product {Name = "Jack's New England Clam Chowder"},
+          new Product {Name = "Konbu"},
+          new Product {Name = "Lakkalikööri"},
+          new Product {Name = "Laughing Lumberjack Lager"},
+          new Product {Name = "Longlife Tofu"},
+          new Product {Name = "Louisiana Fiery Hot Pepper Sauce"},
+          new Product {Name = "Louisiana Hot Spiced Okra"},
+          new Product {Name = "Manjimup Dried Apples"},
+          new Product {Name = "Mascarpone Fabioli"},
+          new Product {Name = "Maxilaku"},
+          new Product {Name = "Mishi Kobe Niku"},
+          new Product {Name = "Mozzarella di Giovanni"},
+          new Product {Name = "Nord-Ost Matjeshering"},
+          new Product {Name = "Northwoods Cranberry Sauce"},
+          new Product {Name = "NuNuCa Nuß-Nougat-Creme"},
+          new Product {Name = "Original Frankfurter grüne Soße"},
+          new Product {Name = "Outback Lager"},
+          new Product {Name = "Pâté chinois"},
+          new Product {Name = "Pavlova"},
+          new Product {Name = "Perth Pasties"},
+          new Product {Name = "Queso Cabrales"},
+          new Product {Name = "Queso Manchego La Pastora"},
+          new Product {Name = "Raclette Courdavault"},
+          new Product {Name = "Ravioli Angelo"},
+          new Product {Name = "Rhönbräu Klosterbier"},
+          new Product {Name = "Röd Kaviar"},
+          new Product {Name = "Rogede sild"},
+          new Product {Name = "Rössle Sauerkraut"},
+          new Product {Name = "Sasquatch Ale"},
+          new Product {Name = "Schoggi Schokolade"},
+          new Product {Name = "Scottish Longbreads"},
+          new Product {Name = "Singaporean Hokkien Fried Mee"},
+          new Product {Name = "Sir Rodney's Marmalade"},
+          new Product {Name = "Sir Rodney's Scones"},
+          new Product {Name = "Sirop d'érable"},
+          new Product {Name = "Spegesild"},
+          new Product {Name = "Steeleye Stout"},
+          new Product {Name = "Tarte au sucre"},
+          new Product {Name = "Teatime Chocolate Biscuits"},
+          new Product {Name = "Thüringer Rostbratwurst"},
+          new Product {Name = "Tofu"},
+          new Product {Name = "Tourtière"},
+          new Product {Name = "Tunnbröd"},
+          new Product {Name = "Uncle Bob's Organic Dried Pears"},
+          new Product {Name = "Valkoinen suklaa"},
+          new Product {Name = "Vegie-spread"},
+          new Product {Name = "Wimmers gute Semmelknödel"},
+          new Product {Name = "Zaanse koeken"}
+        };
+    }
+  }
+}

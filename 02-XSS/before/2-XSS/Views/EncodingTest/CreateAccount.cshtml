@@ -1,0 +1,67 @@
+﻿@model _2_XSS.Controllers.UserAcount
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MVC Acocunt Test</title>
+  <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="content-wrapper">
+      <div class="float-left">
+        <p class="site-title">
+          <a href="~/">your logo here</a>
+        </p>
+      </div>
+      <div class="float-right">
+        <section id="login">
+          <ul>
+            <li><a href="Account/Register.aspx">Register</a></li>
+            <li><a href="Account/Login.aspx">Log in</a></li>
+          </ul>
+        </section>
+        <nav>
+          <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/EncodingTest.aspx">Web Forms Encooding Test</a></li>
+            <li><a href="/EncodingTest">MVC Encoding Test</a></li>
+            <li><a href="/EncodingTest/CreateAccount">Create User Account</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div id="body">
+    <section class="content-wrapper main-content clear-fix">
+      @using (Html.BeginForm())
+      {
+        <fieldset>
+          <legend>Search</legend>
+          <ol>
+            <li>
+              @Html.LabelFor(m => m.UserName)
+              @Html.TextBoxFor(m => m.UserName)
+            </li>
+            <li>
+              @Html.LabelFor(m => m.Password)
+              @Html.PasswordFor(m => m.Password)
+            </li>
+          </ol>
+          <input type="submit" value="Submit" />
+        </fieldset>
+      }
+    </section>
+  </div>
+  <footer>
+    <div class="content-wrapper">
+      <div class="float-left">
+        <p>&copy; - My ASP.NET Application</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

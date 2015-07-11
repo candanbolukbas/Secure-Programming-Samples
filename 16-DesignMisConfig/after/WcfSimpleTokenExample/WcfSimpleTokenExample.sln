@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSimpleTokenExample", "WcfSimpleTokenExample\WcfSimpleTokenExample.csproj", "{C1BF1BF7-52D0-4C5A-8804-85DA612CFC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSimpleTokenExample.Tests", "WcfSimpleTokenExample.Tests\WcfSimpleTokenExample.Tests.csproj", "{DEEA8E09-1135-4AA7-88A0-2578A9E848C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1BF1BF7-52D0-4C5A-8804-85DA612CFC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BF1BF7-52D0-4C5A-8804-85DA612CFC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BF1BF7-52D0-4C5A-8804-85DA612CFC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BF1BF7-52D0-4C5A-8804-85DA612CFC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEA8E09-1135-4AA7-88A0-2578A9E848C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEA8E09-1135-4AA7-88A0-2578A9E848C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEA8E09-1135-4AA7-88A0-2578A9E848C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEA8E09-1135-4AA7-88A0-2578A9E848C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

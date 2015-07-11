@@ -1,0 +1,162 @@
+﻿@model MassAssignment.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ProfileView</title>
+</head>
+<body>
+    <div>
+        <h4>Employee</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TitleOfCourtesy)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TitleOfCourtesy)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.BirthDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HireDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HireDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Address)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Address)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.City)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.City)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Region)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Region)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PostalCode)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Country)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Country)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HomePhone)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HomePhone)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Extension)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Extension)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Salary)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Salary)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Notes)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Notes)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PhotoPath)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PhotoPath)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Employee1.LastName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Employee1.LastName)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

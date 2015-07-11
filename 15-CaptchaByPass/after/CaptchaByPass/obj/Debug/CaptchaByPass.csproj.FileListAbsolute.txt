@@ -1,0 +1,16 @@
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.dll.config
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.pdb
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.csprojResolveAssemblyReference.cache
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.pdb
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\bin\EntityFramework.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\CaptchaByPass\CaptchaByPass\bin\EntityFramework.xml
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.dll.config
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\bin\CaptchaByPass.pdb
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\bin\EntityFramework.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\bin\EntityFramework.xml
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.csprojResolveAssemblyReference.cache
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\15-CaptchaByPass\CaptchaByPass\obj\Debug\CaptchaByPass.pdb

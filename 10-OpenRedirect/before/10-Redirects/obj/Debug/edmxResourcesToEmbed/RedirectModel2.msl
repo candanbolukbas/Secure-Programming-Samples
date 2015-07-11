@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RedirectsModel1StoreContainer" CdmEntityContainer="RedirectEntities2">
+    <EntitySetMapping Name="TrustedUrls">
+      <EntityTypeMapping TypeName="RedirectsModel1.TrustedUrl">
+        <MappingFragment StoreEntitySet="TrustedUrls">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

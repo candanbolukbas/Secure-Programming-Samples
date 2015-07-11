@@ -1,0 +1,30 @@
+﻿@model _3_BrokenAuth.Models.SampleLoginModel
+@{
+  ViewBag.Title = "Home Page";
+}
+<h3>User tracking</h3>
+@if (ViewBag.Username == null)
+{
+  <p>Please login:</p>
+  using (Html.BeginForm("Index", "Home"))
+  {
+  <fieldset>
+    <legend></legend>
+    <ol>
+      <li>
+        @Html.LabelFor(model => model.Username)
+        @Html.TextBoxFor(model => model.Username)
+      </li>
+      <li>
+        @Html.LabelFor(model => model.Password)
+        @Html.PasswordFor(model => model.Password)
+      </li>
+    </ol>
+    <input type="submit" value="Login" />
+  </fieldset>
+  }
+}
+else
+{
+  <p>You are logged in as <strong>@ViewBag.Username</strong></p>
+}

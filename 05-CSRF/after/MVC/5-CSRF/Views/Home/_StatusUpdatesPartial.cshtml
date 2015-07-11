@@ -1,0 +1,31 @@
+﻿@model IEnumerable<_5_CSRF.Models.StatusUpdateViewModel>
+<h2>My status updates</h2>
+@if (Model == null)
+{
+  <p>No status updates yet.</p>
+}
+else
+{
+  <table>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.StatusDate)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Status)
+      </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>
+          @Html.DisplayFor(modelItem => item.StatusDate)
+        </td>
+        <td>
+          @Html.Raw(item.Status)
+        </td>
+      </tr>
+    }
+  </table>
+}

@@ -1,0 +1,6 @@
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\candan\Documents\Visual Studio 2013\Projects\DesignMisConfig\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

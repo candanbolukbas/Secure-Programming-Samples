@@ -1,0 +1,43 @@
+﻿@{
+  ViewBag.Title = "Home Page";
+}
+@if (!User.Identity.IsAuthenticated)
+{
+  <hgroup class="title">
+    <h1>Profile.</h1>
+    <h2>Hey, how about you login then securely view your profile?</h2>
+  </hgroup>
+}
+else
+{
+  <hgroup class="title">
+    <h1>Welcome.</h1>
+    <h2>Hi @User.Identity.Name!</h2>
+  </hgroup>
+
+  <p>
+    <button id="loadButton">View my profile</button>
+  </p>
+  <p id="loader" style="display: none;">Loading profile...</p>
+  
+  <p id="profile" style="display: none;">
+    <label>Birth date</label><span id="birthDate"></span>
+    <label>Tax file number</label><span id="taxFileNumber"></span>
+    <label>Address</label><span id="address"></span>
+  </p>
+  
+  <script type="text/javascript">
+    $("#loadButton").click(function () {
+      $('#loader').fadeIn('slow');
+
+      $.get('UserProfile?userName=@User.Identity.Name', function (data) {
+        $('#birthDate').text(data.BirthDate);
+        $('#taxFileNumber').text(data.TaxFileNumber);
+        $('#address').text(data.Address);
+
+        $('#profile').delay(2000).fadeIn('slow');
+        $('#loader').fadeOut('slow');
+      });
+    });
+  </script>
+}
